@@ -2,7 +2,7 @@
   "name": "my-spa-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://glizdaa.github.io/PWI_web_rwd_spa/public/index.html",
+  "homepage": "https://glizdaa.github.io/PWI_web_rwd_spa",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
