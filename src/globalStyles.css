@@ -15,11 +15,6 @@ body {
   
   main {
     padding: 1.25rem;
-    flex-grow: 1;
-  }
-  
-  .App {
-    display: flex;
   }
   
   nav ul {
@@ -39,34 +34,6 @@ body {
     text-decoration: none;
     font-size: 1rem;
   }
-
-  .sidebar-handle {
-    width: 20px;
-    height: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 2; /* Wyższy niż sidebar, aby był łatwo dostępny */
-    background-color: transparent; /* Ustawienie koloru na przezroczysty lub inne, jeśli chcesz, aby był widoczny */
-  }
-  
-  /* Dodaj lub zaktualizuj style dla .sidebar, aby współpracowały z nową logiką hover */
-  .sidebar {
-    height: 100%;
-    width: 250px; /* Domyślna szerokość sidebaru */
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left:-250px; /* Sidebar domyślnie ukryty poza ekranem */
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s; /* Animacja pokazywania i ukrywania */
-    padding-top: 60px;
-  }
-  
-  .sidebar:hover {
-    left: 1; /* Pokaż sidebar, gdy następuje hover */
-  }
   
   footer {
     background-color: #333;
@@ -77,6 +44,8 @@ body {
     bottom: 0;
     width: 100%;
   }
+
+  
   
   /* Media queries dla różnych rozdzielczości */
   @media (max-width: 768px) {
@@ -119,7 +88,10 @@ body {
     header, footer {
       padding: 30px 50px;
     }
-
+  
+    main {
+      padding: 30px 50px;
+    }
   }
   
   
