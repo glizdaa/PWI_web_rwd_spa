@@ -13,6 +13,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+        <Sidebar /> {/* Dodaj Sidebar tutaj */}
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -25,5 +26,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
