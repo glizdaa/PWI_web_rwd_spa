@@ -120,8 +120,13 @@ body {
     header, footer {
       padding: 30px 50px;
     }
+
+    .App {
+        display: flex;
+      }
   
     main {
+      flex-grow: 1;
       padding: 30px 50px;
     }
   }
