@@ -12,8 +12,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="sidebar-handle"></div> {/* Uchwyt na hover dla sidebaru */}
         <Header />
+        <div className="sidebar-handle"></div> {/* Uchwyt na hover dla sidebaru */}
         <Sidebar />
         <main>
           <Routes>
