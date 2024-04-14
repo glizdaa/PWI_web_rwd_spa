@@ -11,10 +11,9 @@ import './globalStyles.css'; // Upewnij się, że tutaj importujesz swoje style 
 function App() {
   return (
     <Router>
+      <div className="App">
       <div className="sidebar-handle"></div> {/* Uchwyt na hover dla sidebaru */}
         <Sidebar />
-      <div className="App">
-        
         <Header />
         <main>
           <Routes>
