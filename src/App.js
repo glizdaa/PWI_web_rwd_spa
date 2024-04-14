@@ -13,9 +13,9 @@ function App() {
     <Router>
       <div className="App">
       <div className="sidebar-handle"></div> {/* Uchwyt na hover dla sidebaru */}
-        <Sidebar />
         <Header />
         <main>
+        <Sidebar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
