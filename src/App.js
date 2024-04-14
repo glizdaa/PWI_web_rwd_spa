@@ -12,9 +12,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <div className="sidebar-handle"></div> {/* Uchwyt na hover dla sidebaru */}
+
         <Header />
         <main>
+        <div className="sidebar-handle"></div> {/* Uchwyt na hover dla sidebaru */}
         <Sidebar />
           <Routes>
             <Route path="/" element={<Home />} />
