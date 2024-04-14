@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
+import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
@@ -12,6 +13,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+        <Sidebar /> {/* Dodaj Sidebar tutaj */}
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
