@@ -52,7 +52,7 @@ body {
     position: fixed;
     z-index: 1;
     top: 0;
-    left: -250px; /* Sidebar domyślnie ukryty poza ekranem */
+    left: 0px; /* Sidebar domyślnie ukryty poza ekranem */
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s; /* Animacja pokazywania i ukrywania */
