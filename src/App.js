@@ -1,24 +1,26 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
+import Sidebar from './components/Sidebar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import './globalStyles.css';
+import './globalStyles.css'; // Upewnij się, że tutaj importujesz swoje style CSS
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <div className="sidebar-handle"></div> {/* Uchwyt na hover dla sidebaru */}
+        <Sidebar />
         <Header />
-        <Sidebar /> {/* Dodaj Sidebar tutaj */}
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            {/* Tutaj możesz dodać więcej ścieżek, jeśli są potrzebne */}
           </Routes>
         </main>
         <Footer />
@@ -26,6 +28,5 @@ function App() {
     </Router>
   );
 }
-
 
 export default App;
