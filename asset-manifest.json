@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PWI_web_rwd_spa/static/css/main.0e17c480.css",
+    "main.css": "/PWI_web_rwd_spa/static/css/main.a72a6995.css",
     "main.js": "/PWI_web_rwd_spa/static/js/main.7eed027c.js",
     "index.html": "/PWI_web_rwd_spa/index.html",
-    "main.0e17c480.css.map": "/PWI_web_rwd_spa/static/css/main.0e17c480.css.map",
+    "main.a72a6995.css.map": "/PWI_web_rwd_spa/static/css/main.a72a6995.css.map",
     "main.7eed027c.js.map": "/PWI_web_rwd_spa/static/js/main.7eed027c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e17c480.css",
+    "static/css/main.a72a6995.css",
     "static/js/main.7eed027c.js"
   ]
 }
