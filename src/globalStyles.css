@@ -65,7 +65,7 @@ body {
   }
   
   .sidebar:hover {
-    left: 0; /* Pokaż sidebar, gdy następuje hover */
+    left: 1; /* Pokaż sidebar, gdy następuje hover */
   }
   
   footer {
