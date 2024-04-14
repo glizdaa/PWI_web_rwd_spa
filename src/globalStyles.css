@@ -18,6 +18,10 @@ body {
     flex-grow: 1;
   }
   
+  .App {
+    display: flex;
+  }
+  
   nav ul {
     list-style-type: none;
     padding: 0;
@@ -37,7 +41,7 @@ body {
   }
 
   .sidebar-handle {
-    width: 5px;
+    width: 20px;
     height: 100%;
     position: fixed;
     left: 0;
@@ -53,7 +57,7 @@ body {
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0px; /* Sidebar domyślnie ukryty poza ekranem */
+    left:-250px; /* Sidebar domyślnie ukryty poza ekranem */
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s; /* Animacja pokazywania i ukrywania */
@@ -116,9 +120,6 @@ body {
       padding: 30px 50px;
     }
 
-    .App {
-        display: flex;
-      }
   }
   
   
