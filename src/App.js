@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -6,22 +6,21 @@ import Sidebar from './components/Sidebar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import './globalStyles.css';
+import './globalStyles.css'; // Upewnij się, że tutaj importujesz swoje style CSS
 
 function App() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
   return (
     <Router>
       <div className="App">
-        <Header toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
-        <Sidebar isOpen={isSidebarOpen} />
+        <div className="sidebar-handle"></div> {/* Uchwyt na hover dla sidebaru */}
+        <Sidebar />
+        <Header />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            {/* Możesz dodać więcej ścieżek tutaj */}
+            {/* Tutaj możesz dodać więcej ścieżek, jeśli są potrzebne */}
           </Routes>
         </main>
         <Footer />

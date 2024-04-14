@@ -37,16 +37,30 @@ body {
 
   .sidebar {
     height: 100%;
-    width: 0;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    left: -250px; /* Początkowo sidebar jest ukryty poza ekranem */
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
+
+.sidebar-handle {
+    width: 5px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2; /* Upewnij się, że jest wyżej niż sidebar */
+    background-color: transparent; /* Możesz zrobić uchwyt półprzezroczystym lub całkowicie niewidocznym */
+  }
+  
+  .sidebar-handle:hover + .sidebar {
+    left: 0;
+  }  
 
 .sidebar.open {
     width: 250px;
@@ -67,6 +81,7 @@ body {
 
 .sidebar a:hover {
     color: #f1f1f1;
+    left: 0; /* Kiedy sidebar jest hoverowany, staje się w pełni widoczny */
 }
 
 .sidebar-toggle {
