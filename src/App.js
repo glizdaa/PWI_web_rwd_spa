@@ -12,7 +12,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-
         <Header />
         <main>
         <div className="sidebar-handle"></div> {/* Uchwyt na hover dla sidebaru */}
