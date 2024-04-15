@@ -73,6 +73,10 @@ body {
     left: 0; /* Pokaż sidebar, gdy następuje hover */
   }
   
+  .sidebar-handle:hover {
+    background-color: rgba(0,0,0,0.1); /* delikatnie widoczny przy hover */
+  }
+
   .sidebar-handle:hover + .sidebar {
     left: 0;
   }
@@ -124,8 +128,6 @@ body {
     }
   }
   
-  .main-content {
-    margin-left: 20px; /* Odsunięcie zawartości o szerokość handle */
-    transition: margin-left 0.5s; /* Opcjonalna animacja */
+  .App {
+    margin-left: 20px; /* Przesuwa zawartość o szerokość handle */
   }
-  
