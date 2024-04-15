@@ -82,9 +82,9 @@ body {
     left: 0;
   }
 
-  .header, main {
-    margin-left: 20px; /* Tylko te elementy są przesuwane */
-  }
+  .App {
+    padding-left: 20px; /* Użyj paddingu zamiast marginesu */
+  }  
   
   /* Media queries dla różnych rozdzielczości */
   @media (max-width: 768px) {
