@@ -88,7 +88,7 @@ body {
   .header, main {
     margin-left: 20px; /* Tylko te elementy są przesuwane */
   }
-  
+
   /* Media queries dla różnych rozdzielczości */
   @media (max-width: 768px) {
     body {
@@ -125,13 +125,5 @@ body {
   @media (min-width: 1024px) {
     body {
       font-size: 18px;
-    }
-  
-    header, footer {
-      padding: 30px 50px;
-    }
-  
-    main {
-      padding: 30px 50px;
     }
   }
