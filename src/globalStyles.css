@@ -40,7 +40,10 @@ body {
     color: white;
     text-align: center;
     padding: 0.625rem;
-    position: fixed;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
     bottom: 0;
     width: 100%;
   }
@@ -82,9 +85,9 @@ body {
     left: 0;
   }
 
-  .App {
-    padding-left: 20px; /* Użyj paddingu zamiast marginesu */
-  }  
+  .header, main {
+    margin-left: 20px; /* Tylko te elementy są przesuwane */
+  }
   
   /* Media queries dla różnych rozdzielczości */
   @media (max-width: 768px) {
