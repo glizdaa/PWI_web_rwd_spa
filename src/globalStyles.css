@@ -82,7 +82,7 @@ body {
     left: 0;
   }
 
-  header, main, footer {
+  .header, main, footer {
     padding: 30px 50px;
     margin-left: 20px; /* Tylko te elementy są przesuwane */
   }
