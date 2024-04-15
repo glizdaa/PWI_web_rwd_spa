@@ -81,6 +81,10 @@ body {
   .sidebar-handle:hover + .sidebar {
     left: 0;
   }
+
+  .header, main {
+    margin-left: 20px; /* Tylko te elementy są przesuwane */
+  }
   
   /* Media queries dla różnych rozdzielczości */
   @media (max-width: 768px) {
@@ -127,8 +131,4 @@ body {
     main {
       padding: 30px 50px;
     }
-  }
-
-  .App {
-    margin-left: 20px; /* Przesuwa zawartość o szerokość handle */
   }
