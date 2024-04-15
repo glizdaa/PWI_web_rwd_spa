@@ -13,17 +13,19 @@ function App() {
     <Router>
       <div className="App">
         <div className="sidebar-handle"></div> {/* Uchwyt na hover dla sidebaru */}
-        <Sidebar />
-        <Header />
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            {/* Tutaj możesz dodać więcej ścieżek, jeśli są potrzebne */}
-          </Routes>
-        </main>
-        <Footer />
+        <div className="main-content">
+          <Sidebar />
+          <Header />
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              {/* Tutaj możesz dodać więcej ścieżek, jeśli są potrzebne */}
+            </Routes>
+          </main>
+          <Footer />
+        </div>
       </div>
     </Router>
   );
