@@ -44,6 +44,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
+    bottom: 0;
     width: 100%;
   }
 
@@ -84,7 +85,8 @@ body {
     left: 0;
   }
 
-  .header, main {
+  header, main, footer {
+    padding: 30px 50px;
     margin-left: 20px; /* Tylko te elementy są przesuwane */
   }
 
