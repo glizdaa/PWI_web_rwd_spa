@@ -56,7 +56,7 @@ footer {
   right: 0;
   padding: 0.625rem;
   max-width: 100%;
-  margin-top: auto; /* Automatycznie przesuwa footer do dołu, jeśli pozostała treść nie zajmuje całej wysokości */
+  margin-top: auto;
   justify-content: center;
   align-items: center;
 }
