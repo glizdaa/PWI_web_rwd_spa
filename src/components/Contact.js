@@ -8,7 +8,7 @@ function Contact() {
       <p>Jeśli masz jakiekolwiek pytania lub chciałbyś się "skontaktować", skorzystaj z poniższych informacji:</p>
       <ul>
         <li>Email: kontakt@przykladowastrona.pl</li>
-        <li>Telefon: 123 456 789</li>
+        <li>Telefon: +00 123 456 789</li>
         <li>Adres: Ulica Przykładowa 1, 00-000 Miasto</li>
       </ul>
       <p>PS. Telefonu i tak nikt nie odbierze jak w US, ale próbować można...</p>
