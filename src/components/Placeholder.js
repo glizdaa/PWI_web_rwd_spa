@@ -6,8 +6,8 @@ function Placeholder() {
   return (
     <div className="info-box">
       <h2>Ojej!</h2>
-      <p>Cierpliwości... budowa strony trwa w najlepsze!</p>
-      <img src={underConstructionImage} alt="Strona w budowie" style={{ width: '100%', height: 'auto', marginTop: '20px' }} />
+      <h2>Cierpliwości... budowa strony trwa w najlepsze!</h2>
+      <h1><img src={underConstructionImage} alt="Strona w budowie" style={{ width: '26%', height: 'auto', marginTop: '20px' }} /></h1>
     </div>
   );
 }
