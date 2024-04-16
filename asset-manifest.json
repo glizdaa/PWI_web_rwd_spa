@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PWI_web_rwd_spa/static/css/main.4d97e38c.css",
-    "main.js": "/PWI_web_rwd_spa/static/js/main.a45c5f56.js",
+    "main.js": "/PWI_web_rwd_spa/static/js/main.7c6d4e0f.js",
     "static/media/placeholder.png": "/PWI_web_rwd_spa/static/media/placeholder.d1af18fff13d6e1baf11.png",
     "static/media/bg.jpg": "/PWI_web_rwd_spa/static/media/bg.860f302a67c304f274dd.jpg",
     "index.html": "/PWI_web_rwd_spa/index.html",
     "main.4d97e38c.css.map": "/PWI_web_rwd_spa/static/css/main.4d97e38c.css.map",
-    "main.a45c5f56.js.map": "/PWI_web_rwd_spa/static/js/main.a45c5f56.js.map"
+    "main.7c6d4e0f.js.map": "/PWI_web_rwd_spa/static/js/main.7c6d4e0f.js.map"
   },
   "entrypoints": [
     "static/css/main.4d97e38c.css",
-    "static/js/main.a45c5f56.js"
+    "static/js/main.7c6d4e0f.js"
   ]
 }
