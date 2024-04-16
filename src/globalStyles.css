@@ -61,6 +61,10 @@ footer {
   align-items: center;
 }
 
+header, main {
+  margin-left: 20px;
+}
+
 .sidebar-handle {
   width: 20px;
   height: 100vh;
@@ -95,10 +99,6 @@ footer {
 
 .sidebar-handle:hover + .sidebar {
   left: 0;
-}
-
-header, main {
-  margin-left: 20px;
 }
 
 .App {
