@@ -51,9 +51,6 @@ footer {
   color: white;
   text-align: center;
   display: flex;
-  bottom: 0;
-  left: 0;
-  right: 0;
   padding: 0.625rem;
   max-width: 100%;
   margin-top: auto;
@@ -63,6 +60,35 @@ footer {
 
 header, main {
   margin-left: 20px;
+}
+
+.info-box {
+  background-color: rgba(255, 255, 255, 0.9); /* Lekko przezroczyste białe tło */
+  border-radius: 8px; /* Zaokrąglone rogi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtelny cień dla głębi */
+  padding: 20px; /* Wewnętrzny odstęp */
+  margin: 20px 0; /* Margines zewnętrzny, aby oddzielić od innych elementów */
+  width: 100%; /* Zajmuje 100% szerokości kontenera, ale nie więcej niż max-width */
+  box-sizing: border-box; /* Uwzględnia padding i border w szerokości i wysokości */
+}
+
+.info-box h2 {
+  color: #333; /* Ciemniejszy kolor tekstu dla nagłówka */
+  margin-top: 0; /* Usuwa domyślny margines górny */
+  text-align: center;
+}
+
+.info-box p, .info-box ul {
+  color: #666; /* Średni odcień szarości dla tekstu i list */
+  line-height: 1.6; /* Lepsza czytelność przez większą wysokość linii */
+}
+
+.info-box li {
+  margin-bottom: 10px; /* Odstęp między elementami listy */
+}
+
+.info-box h1 {
+  text-align: center;
 }
 
 .sidebar-handle {

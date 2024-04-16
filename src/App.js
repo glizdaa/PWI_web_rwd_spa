@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import Placeholder from './components/Placeholder';
 import './globalStyles.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/placeholder" element={<Placeholder />} />
           </Routes>
         </main>
         <Footer />
