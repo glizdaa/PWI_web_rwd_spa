@@ -5,7 +5,7 @@ import '../globalStyles.css';
 function Header() {
     return (
         <header>
-            <h1>Moja SPA</h1>
+            <h1>SPA</h1>
             <Navigation />
         </header>
     );
