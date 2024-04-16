@@ -19,7 +19,6 @@ header {
   color: white;
   padding: 1.25rem;
   text-align: center;
-  position: static;
 }
 
 main {
@@ -27,19 +26,6 @@ main {
   flex: 1; /* Nowe - sprawia, że main rozciąga się, aby zająć dostępną przestrzeń */
   display: flex;
   flex-direction: column; /* Pozwala na lepsze zarządzanie przestrzenią */
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 0.625rem;
-  position: static;
-  max-width: 100%;
-  margin-top: auto; /* Automatycznie przesuwa footer do dołu, jeśli pozostała treść nie zajmuje całej wysokości */
 }
 
 nav ul {
@@ -58,6 +44,19 @@ nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  position: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.625rem;
+  max-width: 100%;
+  margin-top: auto; /* Automatycznie przesuwa footer do dołu, jeśli pozostała treść nie zajmuje całej wysokości */
 }
 
 .sidebar-handle {
