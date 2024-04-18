@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import smurfImage from '../smurf.jpg';
-import '../globalStyles.css';
+import '../globalStyles.scss';
 
 function Sidebar({ isOpen }) {
     return (

@@ -7,7 +7,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Placeholder from './components/Placeholder';
-import './globalStyles.css';
+import './globalStyles.scss';
 
 function App() {
   return (

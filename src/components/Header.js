@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
-import '../globalStyles.css';
+import '../globalStyles.scss';
 
 function Header() {
     return (
